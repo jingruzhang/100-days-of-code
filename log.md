@@ -16,3 +16,12 @@
 **Thoughts:** Can I use Google Fonts in China? If not, what's the alternative? 
 
 **Link to work:** 
+
+
+### Day 2: August 4, 2018
+
+**Today's Progress:** Started Applied Visual Design section. text-align, width, height, font-weight, strong tag, u tag, em tag, s tag, box-shadow
+
+**Thoughts:** 
+
+**Link to work:** [box-shadow](https://css-tricks.com/almanac/properties/b/box-shadow/)
