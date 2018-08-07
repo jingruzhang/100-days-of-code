@@ -62,3 +62,11 @@ Lightness is the amount of white or black in a color. A percentage is given rang
 The hsl() option in CSS also makes it easy to adjust the tone of a color. Mixing white with a pure hue creates a tint of that color, and adding black will make a shade. Alternatively, a tone is produced by adding gray or by both tinting and shading. Recall that the 's' and 'l' of hsl() stand for saturation and lightness, respectively. The saturation percent changes the amount of gray and the lightness percent determines how much white or black is in the color. This is useful when you have a base hue you like, but need different variations of it.
 
 **Link to work:** [adobe color wheel](https://color.adobe.com/zh/create/color-wheel/)
+
+### Day 5: August 7, 2018
+
+**Today's Progress:** make a heart shape with css(::before, ::after), @@keyframes, animation properties(name, duration, fill-mode, literation-count)
+
+**Thoughts:** Try to recreate what you couldn't understand at the first place.
+
+**Link to work:**
