@@ -51,7 +51,7 @@ The next positioning tool does not actually use position, but sets the float pro
 
 ### Day 4: August 6, 2018
 
-**Today's Progress:** z-index to adjust position of overlapping elements, margin: auto to center a block element, complementary/tertiary colors, hsl(), linear-gradient, background: url(), transform: scale(), transform:skewX()
+**Today's Progress:** z-index to adjust position of overlapping elements, margin: auto to center a block element, complementary/tertiary colors, hsl(), linear-gradient(), background: url(), transform: scale(), transform:skewX()
 
 **Thoughts:** Hue is what people generally think of as 'color'. If you picture a spectrum of colors starting with red on the left, moving through green in the middle, and blue on right, the hue is where a color fits along this line. In hsl(), hue uses a color wheel concept instead of the spectrum, where the angle of the color on the circle is given as a value between 0 and 360.
 
@@ -68,5 +68,21 @@ The hsl() option in CSS also makes it easy to adjust the tone of a color. Mixing
 **Today's Progress:** make a heart shape with css(::before, ::after), @@keyframes, animation properties(name, duration, fill-mode, literation-count)
 
 **Thoughts:** Try to recreate what you couldn't understand at the first place.
+
+**Link to work:**
+
+### Day 6: August 8, 2018
+
+**Today's Progress:** continued animation properties: animation-timing-function(ease, linear, ease-in, ease-out, cubic-bezier()). Finished Applied Visual Section and started Applied Accessibility. It's mandatory to use alt text, when sometimes it needs to be left blank. main, header, footer, nav, article, section, audio(controls), figure, label(for...id), fieldset, legend tags.
+
+**Thoughts:** [how to easily create a multilingual site using wordpress](https://www.wpbeginner.com/beginners-guide/how-to-easily-create-a-multilingual-wordpress-site/)
+
+**Link to work:** [animation-timing-function](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-timing-function)
+
+### Day 7: August 9, 2018
+
+**Today's Progress:** 
+
+**Thoughts:** 
 
 **Link to work:**
