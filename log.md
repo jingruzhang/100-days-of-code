@@ -34,10 +34,10 @@
 
 When the position of an element is set to relative, it allows you to specify how CSS should move it relative to its current position in the normal flow of the page. It pairs with the CSS offset properties of left or right, and top or bottom. These say how many pixels, percentages, or ems to move the item away from where it is normally positioned. The following example moves the paragraph 10 pixels away from the bottom(move UP 10px):
 
-    p {
-      position: relative;
-      bottom: 10px;
-    }
+  p {
+    position: relative;
+    bottom: 10px;
+  }
 
 Changing an element's position to relative does not remove it from the normal flow - other elements around it still behave as if that item were in its default position.
 
@@ -80,6 +80,37 @@ The hsl() option in CSS also makes it easy to adjust the tone of a color. Mixing
 **Link to work:** [animation-timing-function](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-timing-function)
 
 ### Day 7: August 9, 2018
+
+**Today's Progress:** Finished Applied Accessibility. html: input(type,id,name), time(datetime), sup, accesskey attribute, tabindex.
+
+ CSS is used to position the screen reader-only elements off the visual area of the browser window.
+
+Here's an example of the CSS rules that accomplish this:
+
+  .sr-only {
+    position: absolute;
+    left: -10000px;
+    width: 1px;
+    height: 1px;
+    top: auto;
+    overflow: hidden;
+  }
+
+Note
+The following CSS approaches will NOT do the same thing:
+
+display: none; or visibility: hidden; hides content for everyone, including screen reader users.
+
+Zero values for pixel sizes, such as width: 0px; height: 0px; removes that element from the flow of your document, meaning screen readers will ignore it.
+
+
+The Web Content Accessibility Guidelines (WCAG) recommend at least a 4.5 to 1 contrast ratio for normal text. The ratio is calculated by comparing the relative luminance values of two colors. This ranges from 1:1 for the same color, or no contrast, to 21:1 for white against black, the strongest contrast. There are many contrast checking tools available online that calculate this ratio for you.
+
+**Thoughts:** A clearly structured html file is the foundation of everything web.
+
+**Link to work:**
+
+### Day 8: August 10, 2018
 
 **Today's Progress:** 
 
