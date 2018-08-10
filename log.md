@@ -33,11 +33,12 @@
 **Thoughts:** Position property can override the normal flow of a document, aka the default layout of elements. 
 
 When the position of an element is set to relative, it allows you to specify how CSS should move it relative to its current position in the normal flow of the page. It pairs with the CSS offset properties of left or right, and top or bottom. These say how many pixels, percentages, or ems to move the item away from where it is normally positioned. The following example moves the paragraph 10 pixels away from the bottom(move UP 10px):
-
+```css
   p {
     position: relative;
     bottom: 10px;
   }
+```
 
 Changing an element's position to relative does not remove it from the normal flow - other elements around it still behave as if that item were in its default position.
 
@@ -86,7 +87,7 @@ The hsl() option in CSS also makes it easy to adjust the tone of a color. Mixing
  CSS is used to position the screen reader-only elements off the visual area of the browser window.
 
 Here's an example of the CSS rules that accomplish this:
-
+```css
   .sr-only {
     position: absolute;
     left: -10000px;
@@ -95,6 +96,7 @@ Here's an example of the CSS rules that accomplish this:
     top: auto;
     overflow: hidden;
   }
+```
 
 Note
 The following CSS approaches will NOT do the same thing:
@@ -112,7 +114,36 @@ The Web Content Accessibility Guidelines (WCAG) recommend at least a 4.5 to 1 co
 
 ### Day 8: August 10, 2018
 
-**Today's Progress:** 
+**Today's Progress:** Finished responsive web design section and started css flexbox.
+make an image reponsive: 
+
+```css 
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+```
+The max-width property of 100% scales the image to fit the width of its container, but the image won't stretch wider than its original width. Setting the display property to block changes the image from an inline element (its default), to a block element on its own line. The height property of auto keeps the original aspect ratio of the image.
+
+The simplest way to make your images appear "retina" (and optimize them for retina displays) is to define their width and height values as only half of what the original file is.
+
+Viewport units are relative to the viewport dimensions (width or height) of a device, and percentages are relative to the size of the parent container element.
+
+The four different viewport units are:
+
+vw: 10vw would be 10% of the viewport's width.
+vh: 3vh would be 3% of the viewport's height.
+vmin: 70vmin would be 70% of the viewport's smaller dimension (height vs. width).
+vmax: 100vmax would be 100% of the viewport's bigger dimension (height vs. width).
+
+Placing the CSS property display: flex; on an element allows you to use other flex properties to build a responsive page.
+
+flex-direction
+
+### Day 9: August 11, 2018
+
+**Today's Progress:**
 
 **Thoughts:** 
 
