@@ -143,8 +143,64 @@ flex-direction
 
 ### Day 9: August 11, 2018
 
-**Today's Progress:**
+**Today's Progress:** finished css flexbox section. flex-direction; justify-content; align-items; flex-wrap; flex-shrink; flex-grow; flex-basis; flex shorthand property; order; align-self accepts the same values as align-items and will override any value set by the align-items property.
+
+There are several options for how to space the flex items along the line that is the *main axis*(For rows, the main axis is a horizontal line and for columns it is a vertical line.). One of the most commonly used is justify-content: center;, which aligns all the flex items to the center inside the flex container. Others options include:
+
+    flex-start: aligns items to the start of the flex container. For a row, this pushes the items to the left of the container. For a column, this pushes the items to the top of the container.
+    flex-end: aligns items to the end of the flex container. For a row, this pushes the items to the right of the container. For a column, this pushes the items to the bottom of the container.
+    space-between: aligns items to the center of the main axis, with extra space placed between the items. The first and last items are pushed to the very edge of the flex container. For example, in a row the first item is against the left side of the container, the last item is against the right side of the container, then the other items between them are spaced evenly.
+    space-around: similar to space-between but the first and last items are not locked to the edges of the container, the space is distributed around all the items
+
+example: 
+<style>
+  #box-container {
+    background: gray;
+    display: flex;
+    height: 500px;
+    justify-content: center;
+  }
+  #box-1 {
+    background-color: dodgerblue;
+    width: 25%;
+    height: 100%;
+  }
+
+  #box-2 {
+    background-color: orangered;
+    width: 25%;
+    height: 100%;
+  }
+</style>
+
+<div id="box-container">
+  <div id="box-1"></div>
+  <div id="box-2"></div>
+</div>
+
+Flex containers also have a *cross axis* which is the opposite of the main axis. For rows, the cross axis is vertical and for columns, the cross axis is horizontal.
+
+CSS offers the align-items property to align flex items along the cross axis. 
+
+    flex-start: aligns items to the start of the flex container. For rows, this aligns items to the top of the container. For columns, this aligns items to the left of the container.
+    flex-end: aligns items to the end of the flex container. For rows, this aligns items to the bottom of the container. For columns, this aligns items to the right of the container.
+    center: align items to the center. For rows, this vertically aligns items (equal space above and below the items). For columns, this horizontally aligns them (equal space to the left and right of the items).
+    stretch: stretch the items to fill the flex container. For example, rows items are stretched to fill the flex container top-to-bottom.
+    baseline: align items to their baselines. Baseline is a text concept, think of it as the line that the letters sit on.
+
+
+There is a shortcut available to set several flex properties at once. The flex-grow, flex-shrink, and flex-basis properties can all be set together by using the flex property.
+
+For example, flex: 1 0 10px; will set the item to flex-grow: 1;, flex-shrink: 0;, and flex-basis: 10px;.
+
+The default property settings are `flex: 0 1 auto;.`
 
 **Thoughts:** 
 
-**Link to work:**
+**Link to work:** [css flexbox](https://www.cnblogs.com/qingchunshiguang/p/8011103.html)
+
+### Day 10: August 12, 2018
+
+**Thoughts:** 
+
+**Link to work:** 
