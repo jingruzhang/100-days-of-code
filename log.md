@@ -201,6 +201,37 @@ The default property settings are `flex: 0 1 auto;.`
 
 ### Day 10: August 12, 2018
 
+**Today's Progress:** reviewed css flexbox; started css grid properties for grid containers.
+
+```css
+    .container {
+      display: grid;
+      grid-template-columns: 50px 50px;
+    }
+```
+This will give your grid two columns that are 50px wide each.
+
+There's also grid-template-rows that set rows of defined heights.
+
+```css
+  grid-template-columns: auto 50px 10% 2fr 1fr;
+```
+This snippet creates five columns. The first column is as wide as its content, the second column is 50px, the third column is 10% of its container, and for the last two columns; the remaining space is divided into three sections, two are allocated for the fourth column, and one for the fifth.
+
+```css
+    grid-column-gap: 10px;
+```
+This creates 10px of empty space between all of our columns.
+
+There's also grid-row-gap.
+
+grid-gap is a shorthand property for grid-row-gap and grid-column-gap from the previous two challenges that's more convenient to use. If grid-gap has one value, it will create a gap between all rows and columns. However, if there are two values, it will use the first one to set the gap between the rows and the second value for the columns.
+
+
+**Link to work:** [css-tricks css grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
+
+### Day 11: August 13, 2018
+
 **Thoughts:** 
 
 **Link to work:** 
