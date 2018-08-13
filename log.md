@@ -153,6 +153,7 @@ There are several options for how to space the flex items along the line that is
     space-around: similar to space-between but the first and last items are not locked to the edges of the container, the space is distributed around all the items
 
 example: 
+```html
 <style>
   #box-container {
     background: gray;
@@ -177,6 +178,7 @@ example:
   <div id="box-1"></div>
   <div id="box-2"></div>
 </div>
+```
 
 Flex containers also have a *cross axis* which is the opposite of the main axis. For rows, the cross axis is vertical and for columns, the cross axis is horizontal.
 
@@ -204,10 +206,10 @@ The default property settings are `flex: 0 1 auto;.`
 **Today's Progress:** reviewed css flexbox; started css grid properties for grid containers.
 
 ```css
-    .container {
-      display: grid;
-      grid-template-columns: 50px 50px;
-    }
+  .container {
+    display: grid;
+    grid-template-columns: 50px 50px;
+  }
 ```
 This will give your grid two columns that are 50px wide each.
 
@@ -219,7 +221,7 @@ There's also grid-template-rows that set rows of defined heights.
 This snippet creates five columns. The first column is as wide as its content, the second column is 50px, the third column is 10% of its container, and for the last two columns; the remaining space is divided into three sections, two are allocated for the fourth column, and one for the fifth.
 
 ```css
-    grid-column-gap: 10px;
+  grid-column-gap: 10px;
 ```
 This creates 10px of empty space between all of our columns.
 
@@ -231,6 +233,73 @@ grid-gap is a shorthand property for grid-row-gap and grid-column-gap from the p
 **Link to work:** [css-tricks css grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
 
 ### Day 11: August 13, 2018
+
+**Today's Progress:** finished css grid section. properties for grid items: grid-column, grid-row, justify-self(stretch, center, start, end),  align-self.
+
+You can group cells of your grid together into an area and give the area a custom name. Do this by using grid-template-areas on the container like this:
+```css
+grid-template-areas:
+  "header header header"
+  "advert content content"
+  "footer footer footer";
+```
+The code above merges the top three cells together into an area named header, the bottom three cells into a footer area, and it makes two areas in the middle row; advert and content.
+
+Every word in the code represents a cell and every pair of quotation marks represent a row.
+
+In addition to custom labels, you can use a period (.) to designate an empty cell in the grid.
+
+After creating an areas template for your grid container, as shown in the previous challenge, you can place an item in your custom area by referencing the name you gave it. To do this, you use the grid-area property on an item like this:
+`.item1 { grid-area: header; }`
+This lets the grid know that you want the item1 class to go in the area named header. In this case, the item will use the entire top row because that whole row is named as the header area.
+
+`grid-area` can also be used without creating an areas template. 
+
+  grid-area: horizontal line to start at / vertical line to start at / horizontal line to end at / vertical line to end at;
+
+`grid-template-rows: repeat(100, 50px);`
+Here's an example that would create the 100 row grid, each row at 50px tall.
+
+`grid-template-columns: 100px minmax(50px, 200px);`
+In the code above, grid-template-columns is set to create two columns; the first is 100px wide, and the second has the minimum width of 50px and the maximum width of 200px.
+
+`repeat(auto-fill, minmax(60px, 1fr));`
+When the container changes size, this setup keeps inserting 60px columns and stretching them until it can insert another one.
+
+`auto-fit` works almost identically to `auto-fill`. The only difference is that when the container's size exceeds the size of all the items combined, `auto-fill` keeps inserting empty rows or columns and pushes your items to the side, while `auto-fit` collapses those empty rows or columns and stretches your items to fit the size of the container.
+
+*use media queries to create responsive layouts*
+```css
+.container {
+  font-size: 1.5em;
+  min-height: 300px;
+  width: 100%;
+  background: LightGray;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 50px auto 1fr auto;
+  grid-gap: 10px;
+  grid-template-areas:
+    "header"
+    "advert"
+    "content"
+    "footer";
+}
+  
+@media (min-width: 300px){
+  .container{
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas:
+      "advert header"
+      "advert content"
+      "advert footer";
+  }
+}
+```
+**Link to work:** 
+
+### Day 12: August 14, 2018
 
 **Thoughts:** 
 
