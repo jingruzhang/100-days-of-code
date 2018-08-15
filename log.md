@@ -307,6 +307,12 @@ When the container changes size, this setup keeps inserting 60px columns and str
 
 ### Day 13: August 15, 2018
 
+**Today's Progress:** Finished a survey form
+
+**Link to work:** [Registration Form](https://codepen.io/jingru/pen/gjJpoz)
+
+### Day 14: August 16, 2018
+
 **Today's Progress:** 
 
 **Link to work:** 
