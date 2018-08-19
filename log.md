@@ -315,8 +315,8 @@ When the container changes size, this setup keeps inserting 60px columns and str
 
 **Today's Progress:** fixed survey form css.
 
-### Day 15: August 17, 2018
+### Day 15: August 19, 2018
 
-**Today's Progress:** 
+**Today's Progress:** Began project landing page
 
 **Link to work:** 
