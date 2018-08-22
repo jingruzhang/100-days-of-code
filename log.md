@@ -326,3 +326,8 @@ When the container changes size, this setup keeps inserting 60px columns and str
 **Today's Progress:** Continued project landing page
 
 **Link to work:** [ACafe](https://codepen.io/jingru/pen/LJPyVq)
+
+### Day 17: August 22, 2018
+
+**Today's Progress:** Finished project landing page
+
