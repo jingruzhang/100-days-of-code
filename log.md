@@ -331,3 +331,6 @@ When the container changes size, this setup keeps inserting 60px columns and str
 
 **Today's Progress:** Finished project landing page
 
+### Day 18: August 23, 2018
+
+**Today's Progress:** Started technical documentation page
