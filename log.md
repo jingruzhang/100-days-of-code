@@ -342,3 +342,7 @@ When the container changes size, this setup keeps inserting 60px columns and str
 ### Day 20: August 26, 2018
 
 **Today's Progress:** Continue working on the react js documentation page. Deepened my understanding of adding code snippets with HTML5. 
+
+### Day 21: August 27, 2018
+
+**Today's Progress:** Working on react js documentation page. Review materials about components. 
