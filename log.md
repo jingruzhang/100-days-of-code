@@ -353,3 +353,6 @@ When the container changes size, this setup keeps inserting 60px columns and str
 ### Day 23: August 31, 2018
 **Today's Progress:** Working on react js documentation page. review content on event handling. 
 
+### Day 24: September 2, 2018
+**Today's Progress:** Finished styling react documentation page. 
+
