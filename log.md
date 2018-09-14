@@ -358,3 +358,6 @@ When the container changes size, this setup keeps inserting 60px columns and str
 
 ### Day 25: September 13, 2018
 **Today's Progress:** Review html 5 content.
+
+### Day 26: September 14, 2018
+**Today's Progress:** Started on personal portfolio project. 
