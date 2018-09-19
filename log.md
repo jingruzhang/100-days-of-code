@@ -361,3 +361,6 @@ When the container changes size, this setup keeps inserting 60px columns and str
 
 ### Day 26: September 14, 2018
 **Today's Progress:** Started on personal portfolio project. 
+
+### Day 27: September 18, 2018
+**Today's Progress:** Continued personal portfolio project.
