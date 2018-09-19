@@ -364,3 +364,6 @@ When the container changes size, this setup keeps inserting 60px columns and str
 
 ### Day 27: September 18, 2018
 **Today's Progress:** Continued personal portfolio project.
+
+### Day 28: September 19, 2018
+**Today's Progress:** Finished personal portfolio project and claimed "Responsive Web Design Certification".
