@@ -367,3 +367,6 @@ When the container changes size, this setup keeps inserting 60px columns and str
 
 ### Day 28: September 19, 2018
 **Today's Progress:** Finished personal portfolio project and claimed "Responsive Web Design Certification".
+
+### Day 29: September 20, 2018
+**Today's Progress:** Started Sass challenges.
