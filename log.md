@@ -369,4 +369,4 @@ When the container changes size, this setup keeps inserting 60px columns and str
 **Today's Progress:** Finished personal portfolio project and claimed "Responsive Web Design Certification".
 
 ### Day 29: September 20, 2018
-**Today's Progress:** Started Sass challenges.
+**Today's Progress:** Finished Sass challenges.Key concepts: variables, nesting, partials, import, mixins, extend, if/else, while, for, each. Reviewed Bootstrap. 
