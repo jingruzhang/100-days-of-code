@@ -356,20 +356,27 @@ When the container changes size, this setup keeps inserting 60px columns and str
 ### Day 24: September 2, 2018
 **Today's Progress:** Finished styling react documentation page. 
 
-### Day 25: September 13, 2018
+### Day 25: September 8, 2018
+**Today's Progress:** Started portfolio project.
+
+### Day 26: September 13, 2018
 **Today's Progress:** Review html 5 content.
 
-### Day 26: September 14, 2018
+### Day 27: September 14, 2018
 **Today's Progress:** Started on personal portfolio project. 
 
-### Day 27: September 18, 2018
+### Day 28: September 18, 2018
 **Today's Progress:** Continued personal portfolio project.
 
-### Day 28: September 19, 2018
+### Day 29: September 19, 2018
 **Today's Progress:** Finished personal portfolio project and claimed "Responsive Web Design Certification".
 
-### Day 29: September 20, 2018
+### Day 30: September 20, 2018
 **Today's Progress:** Finished Sass challenges.Key concepts: variables, nesting, partials, import, mixins, extend, if/else, while, for, each. Reviewed Bootstrap. 
 
-### Day 30: September 21, 2018
+### Day 31: September 21, 2018
 **Today's Progress:** Started on React challenges. JSX, components, self-closing tags, etc.
+
+### Day 32: September 23, 2018
+**Today's Progress:** Working on props and stateless components. 
+
