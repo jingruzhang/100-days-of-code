@@ -380,3 +380,5 @@ When the container changes size, this setup keeps inserting 60px columns and str
 ### Day 32: September 23, 2018
 **Today's Progress:** Working on props and stateless components. 
 
+### Day 33: September 24, 2018
+**Today's Progress:** Reviewed materials on stateful components. 
