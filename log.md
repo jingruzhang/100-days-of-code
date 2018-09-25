@@ -382,3 +382,6 @@ When the container changes size, this setup keeps inserting 60px columns and str
 
 ### Day 33: September 24, 2018
 **Today's Progress:** Reviewed materials on stateful components. 
+
+### Day 34: September 25, 2018
+**Today's Progress:** Worked on some handler and state setting challenges. 
