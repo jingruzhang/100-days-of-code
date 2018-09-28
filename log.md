@@ -387,4 +387,8 @@ When the container changes size, this setup keeps inserting 60px columns and str
 **Today's Progress:** Worked on some handler and state setting challenges. 
 
 ### Day 35: September 26, 2018
-**Today's Progress:** Passed on functions and props to child components. Reviewed materials on lifecycle methods. Started materials on styling react.
+**Today's Progress:** Passed on functions and props to child components. Reviewed materials on lifecycle methods. Started materials on styling react(as a rule, any hyphenated style properties are written using camelCase in JSX).
+
+### Day 36: September 28, 2018
+**Today's Progress:** Finished freecodecamp react section. Did exercises on conditional rendering, mapping rendering, and renderToString.
+
